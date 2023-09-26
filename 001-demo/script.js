@@ -1,4 +1,3 @@
-"use strict";
 const state = [
     {
         id: 1,

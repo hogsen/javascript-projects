@@ -1,4 +1,3 @@
-"use strict";
 var Progress_Steps;
 (function (Progress_Steps) {
     const state = [{ id: 0, icon: '1' }, { id: 1, icon: '2' }, { id: 2, icon: '3' }, { id: 3, icon: '4' }, { id: 4, icon: '5' }];

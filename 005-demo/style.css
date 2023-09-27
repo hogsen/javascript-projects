@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./images/background.png');
+  background-size: cover;
+  background-repeat:no-repeat ;
+}
+.login form{
+  width: 250px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  background: linear-gradient(
+      to right bottom,
+      rgba(255,255,255,.7),
+      rgba(255,255,255,.5),
+      rgba(255,255,255,.4)
+  );
+  /* 使背景模糊化 */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px #a29bfe;
+}
+h3{
+  margin-top: 10px;
+}
+input{
+  width: 70%;
+  margin-bottom: 2px;
+  outline: none;
+  border: 0;
+  padding: 2px;
+  border-bottom: 2px solid rgb(150, 150, 240);
+  background-color: transparent;
+  font: 400 6px;
+}
+button{
+  width: 70%;
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  background-image: linear-gradient(to left, #fd79a8, #a29bfe);
+  margin-bottom: 8px;
+  border-radius: 5px;
+  padding: 3px;
+}

@@ -1,6 +1,9 @@
 # 思考
 
 1. 文本垂直居中
+   - `line-hignt`==`height`
+   - `padding-top`==`padding-bottom`
+   - `vertical-align: middle`
 2. 声明和使用 css 变量
 3. 在 js 中使用 unicode 图标
 
